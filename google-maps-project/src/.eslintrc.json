@@ -1,0 +1,14 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "globals": {
+      "google": "readonly"
+    },
+    "rules": {
+      "no-undef": "off",
+      "no-unused-vars": ["warn", { "varsIgnorePattern": "matrix|latLng" }]
+    }
+  }
+  
